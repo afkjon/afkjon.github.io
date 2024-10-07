@@ -4,8 +4,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://afkjon.github.com/blog',
-	base: '/blog',
+	site: 'https://afkjon.github.com',
+	base: '/',
 	trailingSlash: 'never',
 	integrations: [mdx(), sitemap()],
 	markdown: {
