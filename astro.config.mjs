@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://afkjon.github.com',
-	base: '/',
+	base: '/blog/',
 	integrations: [mdx(), sitemap()],
 	markdown: {
 		shikiConfig: {
