@@ -4,13 +4,14 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://afkjon.github.com',
-	base: '/blog/',
+	site: 'https://afkjon.github.com/blog',
+	base: '/blog',
+	trailingSlash: 'never',
 	integrations: [mdx(), sitemap()],
 	markdown: {
 		shikiConfig: {
 			theme: 'dark-plus',
 			wrap: true
 		}
-	}
+	},
 });

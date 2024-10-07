@@ -2,7 +2,7 @@
 title: 'Mermaid.js Example'
 description: 'An example of using Mermaid.js in Astro blog posts'
 pubDate: 'Jul 22 2023'
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '../../blog/blog-placeholder-2.jpg'
 ---
 
 # Mermaid.js in Astro
